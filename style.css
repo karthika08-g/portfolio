@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  font-family: "Young Serif", serif;
+}
+.container{
+    padding: 50px;
+
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.section-one__contect{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.section-one__name{
+    font-size: 60px;
+    color: blueviolet;
+}
+.section-one__role{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+
+}
+.section-two__about,.section-three__interest,.section-four__project,.section-five__media{
+    margin-top: 10px;
+
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.section-five__media a{
+    color: skyblue;
+}
+.section-three__points li,.section-four__points li{
+    list-style: none;
+
+}
+.section-three{
+    background-color: rgb(139, 27, 244);
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top ;
+}
+.section-four{
+    background-color: aqua;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    vertical-align: top;
+}
+.contect-form{
+    margin-top: 20px;
+
+}
+.contect-form__input,.contect-form__textarea,.contect-form__submit{
+    margin-top: 10px;
+
+}
+.contect-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contect-form__textarea{
+    padding: 10px;
+    border: none ;
+    border: solid black 1px;
+
+}
+.contect-form__submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(210, 28, 28);
+    color: black;
+    border: none;
+
+}
+
